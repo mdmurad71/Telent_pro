@@ -1,0 +1,22 @@
+.desc{
+    text-align: center;
+}
+.door_img{
+width: 70% !important;
+margin-left: 3rem;
+}
+
+.door_desc{
+    margin-left: 3rem;
+    }
+
+    .content_desc{
+        text-align: center; 
+        margin-left: 2rem;
+        font-size: 14px;
+    }
+
+    .content_link{
+        margin-left: 3rem;
+        font-size: 14px;
+    }
