@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Home.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
                 <p classname=''>We pick up, store and deliver</p>              
                </div>
                <div className='content_link mt-3'>
-               <a><Link to='#'>Learn more</Link></a>
+               <a><Link to='#'>Learn more <FontAwesomeIcon icon={faArrowRight} className='ml-1' /></Link></a>
                </div>
                 </div>
 
@@ -39,7 +40,7 @@ const Home = () => {
                 <p classname=''>24/7 Access Securd Storage Unit</p>              
                </div>
                <div className='content_link mt-3'>
-               <a><Link to='#'>Learn more</Link></a>
+               <a><Link to='#'>Learn more <FontAwesomeIcon icon={faArrowRight} className='ml-1' /></Link></a>
                </div>
                 </div>
 
@@ -53,7 +54,7 @@ const Home = () => {
                 <p classname=''>Store offsite and manage online </p>              
                </div>
                <div className='content_link mt-3'>
-               <a><Link to='#'>Learn more</Link></a>
+               <a><Link to='#'>Learn more <FontAwesomeIcon icon={faArrowRight} className='ml-1' /></Link></a>
                </div>
 
                 </div>
@@ -68,7 +69,7 @@ const Home = () => {
                 <p classname=''>Send Swags to Us and click for returns</p>              
                </div>
                <div className='content_link mt-3'>
-               <a><Link to='#'>Learn more</Link></a>
+               <a><Link to='#'>Learn more <FontAwesomeIcon icon={faArrowRight} className='ml-1' /></Link></a>
                </div>
 
                 </div>
@@ -86,7 +87,7 @@ const Home = () => {
                 <p classname=''>We'll store, receive, pick, pack and ship</p>              
                </div>
                <div className='content_link mt-3'>
-               <a><Link to='#'>Learn more</Link></a>
+               <a><Link to='#'>Learn more <FontAwesomeIcon icon={faArrowRight} className='ml-1' /></Link></a>
                </div>
                 </div>
 
@@ -100,7 +101,7 @@ const Home = () => {
                 <p classname=''>work, store, operate and ship all in one place</p>              
                </div>
                <div className='content_link mt-3'>
-               <a><Link to='#'>Learn more</Link></a>
+               <a><Link to='#'>Learn more <FontAwesomeIcon icon={faArrowRight} className='ml-1' /></Link></a>
                </div>
                 </div>
 
@@ -114,7 +115,7 @@ const Home = () => {
                 <p classname=''>Office Space With Storage space</p>              
                </div>
                <div className='content_link mt-3'>
-               <a><Link to='#'>Learn more</Link></a>
+               <a><Link to='#'>Learn more <FontAwesomeIcon icon={faArrowRight} className='ml-1' /></Link></a>
                </div>
 
                 </div>
